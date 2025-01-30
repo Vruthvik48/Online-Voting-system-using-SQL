@@ -1,0 +1,54 @@
+
+ DATABASE MANAGEMENT SYSTEM MINI PROJECT
+ 						SYNOPSIS
+ 
+TITLE               E-VOTING MANAGEMENT SYSTEMNAMEPAVITHRA H NVRUTHVIK D SUSN1VK21AI0131VK21AI027
+ABSTRACT :
+
+A “E–VOTING  MANAGEMENT SYSTEM” is to revolutionize the electoral  process by leveraging technology to enhance accessibility efficiency and transparency. By allowing voters to cast their ballots remotely from any location with an internet connection, online voting systems break down barriers to participation and empower individuals who may face obstacles in physically accessing polling stations. This convenience not only encourages higher voter turnout but also reduces the logistical challenges associated with traditional voting methods, such as long lines and wait times. Additionally, online voting systems offer greater accuracy through automated counting processes, minimizing errors and ensuring the integrity of election results. Furthermore, these systems promote transparency by providing  real-time tracking of votes and   implementing robust security measures to safeguard against fraud and manipulation.
+
+Overall, the purpose of E-Voting Management Systems is to modernize democracy,
+making it more inclusive, efficient, and trustworthy for all citizens.
+
+
+
+
+  HARDWARE REQUIREMENTS
+
+* VIDEO MEMORY :   512 VRAM or higher.
+* DISK SPACE	   :   750 MB of free disk space.
+* RAM 		   :   4 GB or higher.
+* SYSTEM TYPE      :   64-bit processor.
+* MONITOR 	   :   VGA compatible (CRT or LCD-TFT).
+
+SOFTWARE REQUIREMENTS
+
+* DISK SPACE		    :   750 MB of free disk space.
+* DATABASE     		   :    MySQL.
+* OPERATING SYSTEM  :   Windows 7or higher.
+* LANGUAGE		  :    Javascript, PHP .  
+
+  REFERENCES
+[1]  Ramez    Elmasri, Shamkant B.Navathe.” Fundamentals  of  Database System”,    Pearson Publication.
+[2] Online Voting System by Hassan Abdullah(www.academia.edu).
+
+
+
+
+
+
+
+
+
+ DATABASE MANAGEMENT SYSTEM MINI PROJECT
+E-VOTING MANAGEMENT SYSTEM
+
+STRUCTURAL CONSTRAINTS OF ENTITY RELATIONSHIP
+DIAGRAM :
+1. The E-Voting system has the root login (administrator) with name and password who can add or view the details of user (i.e: the person who wants to cast a vote) and also can view the vote poll.
+2. Each user has id as unique and primary key name, username, password and type as the user details.
+3. Administrator can view the vote poll and user details of each user whether he wants to add, delete, update the credentials of a user who wants to cast his/her vote and can also dump values into the category_list if he wants to add which candidate to stand for election .
+4. The table vote will allow a user to cast his vote based on vote_id, user_id, category_id, voting_opt_id.
+5.  The user can cast his/her vote to the respective candidate as well as can view the vote poll in the voting_list.
+6. The voting_list is given along with title and description which can be only altered by and update by admin.
+7. Overall , the E-voting system allows the user to cast his/her vote to the respective candidates given by the admin, admin acts as intermediate who can update, insert and  delete the details of any user and can also alter the table for vote_opting candidates.  
